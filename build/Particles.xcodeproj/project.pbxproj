@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C90E51D61C3D1963008242E1 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C90E51D51C3D1963008242E1 /* Texture.cpp */; };
+		C90E51D81C3D1DB9008242E1 /* libSOIL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C90E51D71C3D1DB9008242E1 /* libSOIL.a */; };
+		C939A56B1C3B5DE100992110 /* ParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C939A56A1C3B5DE100992110 /* ParticleSystem.cpp */; };
+		C939A56C1C3B672600992110 /* ParticleData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C939A5571C3B226B00992110 /* ParticleData.cpp */; };
+		C939A56D1C3B672600992110 /* ParticleGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C939A55C1C3B293800992110 /* ParticleGenerator.cpp */; };
+		C939A56E1C3B672600992110 /* ParticleEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C939A5601C3B2DE100992110 /* ParticleEmitter.cpp */; };
+		C939A56F1C3B672600992110 /* ParticleUpdater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C939A5631C3B30AB00992110 /* ParticleUpdater.cpp */; };
+		C939A5701C3B672600992110 /* ParticleRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C939A5671C3B315600992110 /* ParticleRenderer.cpp */; };
+		C9B693F71C36149C00802B4A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B693F61C36149C00802B4A /* Cocoa.framework */; };
+		C9B693F91C3614A600802B4A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B693F81C3614A600802B4A /* IOKit.framework */; };
+		C9B693FD1C3614BA00802B4A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B693FC1C3614BA00802B4A /* QuartzCore.framework */; };
+		C9B693FF1C3614C000802B4A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B693FE1C3614C000802B4A /* OpenGL.framework */; };
+		C9B694171C361A4A00802B4A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9B694141C361A4A00802B4A /* main.cpp */; };
+		C9B694181C361A4A00802B4A /* Program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9B694151C361A4A00802B4A /* Program.cpp */; };
+		C9B694191C361A4A00802B4A /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9B694161C361A4A00802B4A /* Shader.cpp */; };
+		C9B6941B1C361D1400802B4A /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B6941A1C361D1400802B4A /* libglfw3.a */; };
+		C9B6941D1C3629DA00802B4A /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B6941C1C3629DA00802B4A /* libGLEW.a */; };
+		C9B694271C371ACA00802B4A /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9B694261C371ACA00802B4A /* Camera.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9B693EA1C36130600802B4A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C90E51D41C3D1951008242E1 /* Texture.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Texture.hpp; path = ../include/Texture.hpp; sourceTree = "<group>"; };
+		C90E51D51C3D1963008242E1 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Texture.cpp; path = ../src/Texture.cpp; sourceTree = "<group>"; };
+		C90E51D71C3D1DB9008242E1 /* libSOIL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSOIL.a; path = ../../../../../../usr/local/lib/libSOIL.a; sourceTree = "<group>"; };
+		C939A5571C3B226B00992110 /* ParticleData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleData.cpp; path = ../src/ParticleData.cpp; sourceTree = "<group>"; };
+		C939A5591C3B229000992110 /* ParticleData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ParticleData.hpp; path = ../include/ParticleData.hpp; sourceTree = "<group>"; };
+		C939A55B1C3B286B00992110 /* ParticleGenerator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ParticleGenerator.hpp; path = ../include/ParticleGenerator.hpp; sourceTree = "<group>"; };
+		C939A55C1C3B293800992110 /* ParticleGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleGenerator.cpp; path = ../src/ParticleGenerator.cpp; sourceTree = "<group>"; };
+		C939A55F1C3B2D5F00992110 /* ParticleEmitter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ParticleEmitter.hpp; path = ../include/ParticleEmitter.hpp; sourceTree = "<group>"; };
+		C939A5601C3B2DE100992110 /* ParticleEmitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleEmitter.cpp; path = ../src/ParticleEmitter.cpp; sourceTree = "<group>"; };
+		C939A5621C3B304B00992110 /* ParticleUpdater.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ParticleUpdater.hpp; path = ../include/ParticleUpdater.hpp; sourceTree = "<group>"; };
+		C939A5631C3B30AB00992110 /* ParticleUpdater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleUpdater.cpp; path = ../src/ParticleUpdater.cpp; sourceTree = "<group>"; };
+		C939A5661C3B311600992110 /* ParticleRenderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ParticleRenderer.hpp; path = ../include/ParticleRenderer.hpp; sourceTree = "<group>"; };
+		C939A5671C3B315600992110 /* ParticleRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleRenderer.cpp; path = ../src/ParticleRenderer.cpp; sourceTree = "<group>"; };
+		C939A5691C3B336E00992110 /* ParticleSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ParticleSystem.hpp; path = ../include/ParticleSystem.hpp; sourceTree = "<group>"; };
+		C939A56A1C3B5DE100992110 /* ParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleSystem.cpp; path = ../src/ParticleSystem.cpp; sourceTree = "<group>"; };
+		C9B693EC1C36130600802B4A /* Particles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Particles; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B693F61C36149C00802B4A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C9B693F81C3614A600802B4A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		C9B693FA1C3614AC00802B4A /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		C9B693FC1C3614BA00802B4A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C9B693FE1C3614C000802B4A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C9B6940D1C361A1F00802B4A /* fragment_shader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fragment_shader.glsl; path = ../shaders/fragment_shader.glsl; sourceTree = "<group>"; };
+		C9B6940F1C361A1F00802B4A /* vertex_shader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vertex_shader.glsl; path = ../shaders/vertex_shader.glsl; sourceTree = "<group>"; };
+		C9B694121C361A4400802B4A /* Program.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Program.hpp; path = ../include/Program.hpp; sourceTree = "<group>"; };
+		C9B694131C361A4400802B4A /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Shader.hpp; path = ../include/Shader.hpp; sourceTree = "<group>"; };
+		C9B694141C361A4A00802B4A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../src/main.cpp; sourceTree = "<group>"; };
+		C9B694151C361A4A00802B4A /* Program.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Program.cpp; path = ../src/Program.cpp; sourceTree = "<group>"; };
+		C9B694161C361A4A00802B4A /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Shader.cpp; path = ../src/Shader.cpp; sourceTree = "<group>"; };
+		C9B6941A1C361D1400802B4A /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../../../../usr/local/lib/libglfw3.a; sourceTree = "<group>"; };
+		C9B6941C1C3629DA00802B4A /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = ../../../../../../usr/local/lib/libGLEW.a; sourceTree = "<group>"; };
+		C9B694261C371ACA00802B4A /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Camera.cpp; path = ../src/Camera.cpp; sourceTree = "<group>"; };
+		C9B694281C371ADC00802B4A /* Camera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Camera.hpp; path = ../include/Camera.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9B693E91C36130600802B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B693FF1C3614C000802B4A /* OpenGL.framework in Frameworks */,
+				C9B693FD1C3614BA00802B4A /* QuartzCore.framework in Frameworks */,
+				C9B693F91C3614A600802B4A /* IOKit.framework in Frameworks */,
+				C9B693F71C36149C00802B4A /* Cocoa.framework in Frameworks */,
+				C9B6941D1C3629DA00802B4A /* libGLEW.a in Frameworks */,
+				C90E51D81C3D1DB9008242E1 /* libSOIL.a in Frameworks */,
+				C9B6941B1C361D1400802B4A /* libglfw3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9B693E31C36130600802B4A = {
+			isa = PBXGroup;
+			children = (
+				C9B694111C361A3300802B4A /* include */,
+				C9B694101C361A2E00802B4A /* src */,
+				C9B694071C36175900802B4A /* shaders */,
+				C9B693ED1C36130600802B4A /* Products */,
+				C9B694001C3614C800802B4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B693ED1C36130600802B4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B693EC1C36130600802B4A /* Particles */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9B694001C3614C800802B4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C90E51D71C3D1DB9008242E1 /* libSOIL.a */,
+				C9B6941C1C3629DA00802B4A /* libGLEW.a */,
+				C9B6941A1C361D1400802B4A /* libglfw3.a */,
+				C9B693FE1C3614C000802B4A /* OpenGL.framework */,
+				C9B693FC1C3614BA00802B4A /* QuartzCore.framework */,
+				C9B693FA1C3614AC00802B4A /* Quartz.framework */,
+				C9B693F81C3614A600802B4A /* IOKit.framework */,
+				C9B693F61C36149C00802B4A /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9B694071C36175900802B4A /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				C9B6940F1C361A1F00802B4A /* vertex_shader.glsl */,
+				C9B6940D1C361A1F00802B4A /* fragment_shader.glsl */,
+			);
+			name = shaders;
+			sourceTree = "<group>";
+		};
+		C9B694101C361A2E00802B4A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C9B694141C361A4A00802B4A /* main.cpp */,
+				C9B694151C361A4A00802B4A /* Program.cpp */,
+				C9B694161C361A4A00802B4A /* Shader.cpp */,
+				C9B694261C371ACA00802B4A /* Camera.cpp */,
+				C939A5571C3B226B00992110 /* ParticleData.cpp */,
+				C939A5601C3B2DE100992110 /* ParticleEmitter.cpp */,
+				C939A55C1C3B293800992110 /* ParticleGenerator.cpp */,
+				C939A5631C3B30AB00992110 /* ParticleUpdater.cpp */,
+				C939A5671C3B315600992110 /* ParticleRenderer.cpp */,
+				C939A56A1C3B5DE100992110 /* ParticleSystem.cpp */,
+				C90E51D51C3D1963008242E1 /* Texture.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		C9B694111C361A3300802B4A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C9B694121C361A4400802B4A /* Program.hpp */,
+				C9B694131C361A4400802B4A /* Shader.hpp */,
+				C9B694281C371ADC00802B4A /* Camera.hpp */,
+				C939A5591C3B229000992110 /* ParticleData.hpp */,
+				C939A55F1C3B2D5F00992110 /* ParticleEmitter.hpp */,
+				C939A55B1C3B286B00992110 /* ParticleGenerator.hpp */,
+				C939A5621C3B304B00992110 /* ParticleUpdater.hpp */,
+				C939A5661C3B311600992110 /* ParticleRenderer.hpp */,
+				C939A5691C3B336E00992110 /* ParticleSystem.hpp */,
+				C90E51D41C3D1951008242E1 /* Texture.hpp */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B693EB1C36130600802B4A /* Particles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B693F31C36130600802B4A /* Build configuration list for PBXNativeTarget "Particles" */;
+			buildPhases = (
+				C9B693E81C36130600802B4A /* Sources */,
+				C9B693EA1C36130600802B4A /* CopyFiles */,
+				C9B693E91C36130600802B4A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Particles;
+			productName = Particles;
+			productReference = C9B693EC1C36130600802B4A /* Particles */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9B693E41C36130600802B4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					C9B693EB1C36130600802B4A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C9B693E71C36130600802B4A /* Build configuration list for PBXProject "Particles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9B693E31C36130600802B4A;
+			productRefGroup = C9B693ED1C36130600802B4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B693EB1C36130600802B4A /* Particles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9B693E81C36130600802B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C939A56C1C3B672600992110 /* ParticleData.cpp in Sources */,
+				C939A56D1C3B672600992110 /* ParticleGenerator.cpp in Sources */,
+				C939A56E1C3B672600992110 /* ParticleEmitter.cpp in Sources */,
+				C939A56F1C3B672600992110 /* ParticleUpdater.cpp in Sources */,
+				C939A5701C3B672600992110 /* ParticleRenderer.cpp in Sources */,
+				C9B694181C361A4A00802B4A /* Program.cpp in Sources */,
+				C939A56B1C3B5DE100992110 /* ParticleSystem.cpp in Sources */,
+				C9B694271C371ACA00802B4A /* Camera.cpp in Sources */,
+				C9B694191C361A4A00802B4A /* Shader.cpp in Sources */,
+				C9B694171C361A4A00802B4A /* main.cpp in Sources */,
+				C90E51D61C3D1963008242E1 /* Texture.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9B693F11C36130600802B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9B693F21C36130600802B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9B693F41C36130600802B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/Cellar/glm/0.9.7.1/include,
+					/usr/local/Cellar/glew/1.13.0/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9B693F51C36130600802B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/Cellar/glm/0.9.7.1/include,
+					/usr/local/Cellar/glew/1.13.0/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9B693E71C36130600802B4A /* Build configuration list for PBXProject "Particles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B693F11C36130600802B4A /* Debug */,
+				C9B693F21C36130600802B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B693F31C36130600802B4A /* Build configuration list for PBXNativeTarget "Particles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B693F41C36130600802B4A /* Debug */,
+				C9B693F51C36130600802B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9B693E41C36130600802B4A /* Project object */;
+}
