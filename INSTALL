@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo apt-get -y install cmake
+sudo apt-get -y install pkg-config
+sudo apt-get -y install libsoil-dev
+sudo apt-get -y install libglfw-dev
