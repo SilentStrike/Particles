@@ -1,0 +1,16 @@
+language: cpp
+compiler: gcc
+sudo: required
+dist: xenial
+
+branches:
+    only:
+        - master
+
+install: ./INSTALL
+
+before_script:
+    - mkdir build
+    - cd build
+    - cmake ..
+    - make -j8
