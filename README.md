@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.org/mgodmere/Particles.svg?branch=master)](https://travis-ci.org/mgodmere/Particles)
+
 # Particles
 Simple Particle Engine
 
