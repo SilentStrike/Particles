@@ -7,7 +7,7 @@ branches:
     only:
         - master
 
-install: ./INSTALL
+install: sudo ./INSTALL
 
 before_script:
     - mkdir build
