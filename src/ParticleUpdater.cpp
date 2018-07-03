@@ -98,7 +98,7 @@ void WallUpdater::Update(float dt, ParticleData *p)
             p->position[i] += p_ + r;
             
             // final velocity is length multiplied by unit reflection vector
-            p->velocity[i] = p->velocity[i].length() * glm::normalize(r);
+            //p->velocity[i] = p->velocity[i].length() * glm::normalize(r);
         }
     }
 }

@@ -4,5 +4,6 @@ sudo apt-get -y install cmake
 sudo apt-get -y install pkg-config
 sudo apt-get -y install libsoil-dev
 sudo apt-get -y install libglfw-dev
+sudo apt-get -y install libglew-dev
 sudo apt-get -y install libglm-dev
-sudo apt-get -y install libXmu-dev libXi-dev libgl-dev dos2unix git wget
+sudo apt-get -y install libXmu-dev libXi-dev dos2unix git wget

@@ -8,6 +8,7 @@ include_directories(
 add_definitions(-std=c++11 -O3)
 
 link_directories(
+	/usr/local/lib
 	${PROJECT_SOURCE_DIR}/lib
 )
 
@@ -26,4 +27,4 @@ target_link_libraries(Particles)
 
 # main target
 add_executable(particles ${PROJECT_SOURCE_DIR}/targets/main.cpp)
-target_link_libraries(particles Particles SOIL -lglfw3 -lGLEW -lX11 -lXrandr -lXinerama -lXi -lXxf86vm -lXcursor -ldl -lGL -lm -lpthread -fopenmp)
+target_link_libraries(particles Particles SOIL -lglfw -lGLEW -lX11 -lXrandr -lXinerama -lXi -lXxf86vm -lXcursor -ldl -lGL -lm -lpthread -fopenmp)
